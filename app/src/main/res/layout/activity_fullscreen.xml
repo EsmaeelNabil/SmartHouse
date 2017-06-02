@@ -1,0 +1,208 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.esmaeel.projectapp.FullscreenActivity"
+    android:background="#2c3e50">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:src="@drawable/nicolas"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#f9f9f9f9"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginStart="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/portt" />
+
+                    <EditText
+                        android:id="@+id/portedtext1"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:background="#f9f9f9f9"
+                        android:ems="10"
+                        android:fontFamily="serif"
+                        android:hint="Home Port"
+                        android:inputType="numberSigned"
+                        android:padding="16dp"
+                        android:textColor="#5e4f4f"
+                        android:textColorHint="#2d3f51"
+                        android:textColorLink="#313131" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#f9f9f9f9"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginStart="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/ipp" />
+
+                    <EditText
+                        android:id="@+id/ipedtext1"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:background="#f9f9f9f9"
+                        android:ems="10"
+                        android:fontFamily="serif"
+                        android:hint="Home IP Address"
+                        android:inputType="text|number"
+                        android:padding="16dp"
+                        android:paddingBottom="20dp"
+                        android:textColor="#5e4f4f"
+                        android:textColorHint="#2d3f51"
+                        android:textColorLink="#313131" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="10dp"
+                    android:background="#ffffff" />
+
+                <LinearLayout
+                    android:id="@+id/lapportLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="#f9f9f9f9"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginStart="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/portt" />
+
+                    <EditText
+                        android:id="@+id/laptopportedtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:background="#f9f9f9f9"
+                        android:ems="10"
+                        android:fontFamily="serif"
+                        android:hint="Laptop Port"
+                        android:inputType="numberSigned"
+                        android:padding="16dp"
+                        android:textColor="#5e4f4f"
+                        android:textColorHint="#2d3f51"
+                        android:textColorLink="#313131" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lapipLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="#f9f9f9f9"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginStart="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/ipp" />
+
+                    <EditText
+                        android:id="@+id/laptopipedtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:background="#f9f9f9f9"
+                        android:ems="10"
+                        android:fontFamily="serif"
+                        android:hint="Laptop IP Address"
+                        android:inputType="text|number"
+                        android:padding="16dp"
+                        android:paddingBottom="20dp"
+                        android:textColor="#5e4f4f"
+                        android:textColorHint="#2d3f51"
+                        android:textColorLink="#313131" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textAllCaps="true"
+                        android:text="Use Laptop Configuration" />
+
+                    <Button
+                        android:id="@+id/connectbtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/colorAccent"
+                        android:text="Connect"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
